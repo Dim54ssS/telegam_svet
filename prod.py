@@ -6,11 +6,11 @@ from pyowm import OWM
 from telebot import types
 
 
-owm = OWM('API Token')
+owm = OWM('Your OWM API Token')
 
 
 
-token='Telegram token'
+token='Your Telegram token'
 
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
