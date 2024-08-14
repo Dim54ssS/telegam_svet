@@ -10,7 +10,7 @@ owm = OWM('API Token')
 
 
 
-token='Your telegram bot token'
+token='6507153719:AAEF2IpHazYvA8CKFXLokB5WckL9uh_sHek'
 
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
